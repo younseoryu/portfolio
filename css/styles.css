@@ -1204,9 +1204,9 @@ a.fa.fa-angle-down:focus {
     line-height: 1.5;
 }
 
-img#starry-logo,
-img#mullen-logo,
-img#nu-logo {
+img#saline-logo,
+img#deanza-logo,
+img#ucsd-logo {
     height: auto;
     display: block;
     -webkit-transition: all .3s ease-in-out;
@@ -1214,17 +1214,17 @@ img#nu-logo {
     transition: all .3s ease-in-out
 }
 
-img#starry-logo {
+img#saline-logo {
     width: 180px;
     margin: 0 auto 10px;
 }
 
-img#mullen-logo {
+img#deanza-logo {
     width: 200px;
     margin: 0 auto 10px;
 }
 
-img#nu-logo {
+img#ucsd-logo {
     width: 120px;
     margin: 0 auto;
 }
@@ -1238,10 +1238,10 @@ img#nu-logo {
         font-size: 16px;
         margin-bottom: 0;
     }
-    img#mullen-logo {
+    img#deanza-logo {
         width: 200px;
     }
-    img#nu-logo {
+    img#ucsd-logo {
         width: 150px;
     }
 }

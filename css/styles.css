@@ -502,6 +502,12 @@ a.active {
     background-color: #000;
     color: #000;
 }
+@media only screen and (max-width: 600px) {
+  #intro {
+    background: url(../img/mobilebackground.png);
+    background-color: lightblue;
+  }
+}
 
 #intro .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -524,7 +530,7 @@ a.active {
 
 #intro h1 {
     color: #FFF;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 3px;
 }

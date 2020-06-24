@@ -506,6 +506,8 @@ a.active {
   #intro {
     width: 100%;
     height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background: url(../img/mobilebackground.png);
     background-color: lightblue;
   }

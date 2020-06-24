@@ -506,7 +506,7 @@ a.active {
   #intro {
     width: 100%;
     height: auto;
-    background: url(../img/wintersunset.jpeg);
+    background: url(../img/mobilebackground.png);
     background-color: lightblue;
   }
 }

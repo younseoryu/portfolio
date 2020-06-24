@@ -494,8 +494,6 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    width: 100%;
-    height: auto;
     background: url(../img/wintersunset.jpeg);
     background-size: cover;
     background-position: center;
@@ -506,7 +504,9 @@ a.active {
 }
 @media only screen and (max-width: 600px) {
   #intro {
-    background: url(../img/mobilebackground.png);
+    width: 100%;
+    height: auto;
+    background: url(../img/wintersunset.jpeg);
     background-color: lightblue;
   }
 }

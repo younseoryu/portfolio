@@ -1227,6 +1227,13 @@ img#ucsd-logo {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
+img#crownsterling-logo {
+    height: auto;
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
 
 img#saline-logo {
     width: 180px;
@@ -1239,6 +1246,11 @@ img#deanza-logo {
 }
 
 img#ucsd-logo {
+    width: 120px;
+    margin: 0 auto;
+}
+
+img#crownsterling-logo {
     width: 120px;
     margin: 0 auto;
 }
@@ -1256,6 +1268,9 @@ img#ucsd-logo {
         width: 200px;
     }
     img#ucsd-logo {
+        width: 150px;
+    }
+    img#crownsterling-logo {
         width: 150px;
     }
 }
